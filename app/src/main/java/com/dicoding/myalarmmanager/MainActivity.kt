@@ -8,7 +8,7 @@ import java.util.*
 import java.text.SimpleDateFormat
 
 class MainActivity : AppCompatActivity(), View.OnClickListener, DatePickerFragment.DialogDateListener, TimePickerFragment.DialogTimeListener {
-//
+
     private var binding: ActivityMainBinding? = null
     private lateinit var alarmReceiver: AlarmReceiver
 
